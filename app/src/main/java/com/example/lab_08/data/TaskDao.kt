@@ -28,4 +28,6 @@ interface TaskDao {
     // Eliminar todas las tareas
     @Query("DELETE FROM tasks")
     suspend fun deleteAllTasks()
+
+
 }
